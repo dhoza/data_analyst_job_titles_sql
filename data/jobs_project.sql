@@ -27,9 +27,9 @@ FROM data_analyst_jobs; A 881*/
 FROM data_analyst_jobs
 WHERE location = 'CA'; A 230*/
 
-SELECT company, AVG(star_rating) AS avg_rating
+/* Q9 SELECT company, AVG(star_rating) AS avg_rating
 FROM data_analyst_jobs
 WHERE review_count > 5000
-GROUP BY company;
+GROUP BY company; A 41*/
 
 select * from data_analyst_jobs
